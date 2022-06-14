@@ -136,14 +136,7 @@
 .site-footer {
   background-color: #7297ef;
 }
-.footer-top {
-}
-.footer-logo-wrapper {
-}
-.footer-logo-link {
-}
-.footer-logo-image {
-}
+
 .footer-logo-description {
   font-style: normal;
   font-weight: 400;
@@ -151,8 +144,7 @@
   line-height: 19px;
   color: #ffffff;
 }
-.footer-category-list {
-}
+
 .footer-category-item {
   font-style: normal;
   font-weight: 500;
@@ -161,16 +153,4 @@
 }
 .footer-category-item__link {
   color: #ffffff;
-}
-.social-media {
-}
-.social-media-text {
-}
-.social-media-list {
-}
-.social-media-item {
-}
-.social-media-item__link {
-}
-.social-media-image {
 }
