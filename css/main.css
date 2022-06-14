@@ -1,0 +1,176 @@
+/* Header */
+.header-price-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header-price-text__icon {
+  color: #2959ce;
+}
+
+.header-signIn-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: #7296ec;
+  color: #ffffff;
+}
+
+.navigation-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.navigation-item__link {
+  color: #7f7f7f;
+}
+
+/* Latest news */
+.latest-news__item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.latest-news__item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+}
+
+.publish-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+.banner-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.banner-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background: #f78b3b;
+  color: #ffffff;
+}
+
+/* Country news */
+.about-country__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.country-news-item__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.country-news-item__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+}
+
+.country-news-publish-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+.loading-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.short-news-info__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.short-news-item__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.short-news-company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #5e5f61;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #7297ef;
+}
+.footer-top {
+}
+.footer-logo-wrapper {
+}
+.footer-logo-link {
+}
+.footer-logo-image {
+}
+.footer-logo-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.footer-category-list {
+}
+.footer-category-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-category-item__link {
+  color: #ffffff;
+}
+.social-media {
+}
+.social-media-text {
+}
+.social-media-list {
+}
+.social-media-item {
+}
+.social-media-item__link {
+}
+.social-media-image {
+}
