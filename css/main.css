@@ -1,4 +1,14 @@
 /* Header */
+.site-header__top {
+  background-color: #f6f6f6;
+}
+.site-header__logo-image {
+  width: 276px;
+  height: 45px;
+}
+.header-price-list {
+  list-style: none;
+}
 .header-price-text {
   font-style: normal;
   font-weight: 700;
@@ -9,7 +19,20 @@
 .header-price-text__icon {
   color: #2959ce;
 }
-
+.search-box {
+  width: 275px;
+  height: 45px;
+  background-color: #fff;
+}
+.site-lenguage {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 12px;
+}
+.site-lenguage__uz,
+.site-lenguage__ru {
+  color: #000000;
+}
 .header-signIn-btn {
   font-style: normal;
   font-weight: 500;
@@ -18,7 +41,12 @@
   background: #7296ec;
   color: #ffffff;
 }
-
+.site-navigation {
+  width: 1200px;
+}
+.navigation-list {
+  list-style: none;
+}
 .navigation-item {
   font-style: normal;
   font-weight: 500;
@@ -28,9 +56,30 @@
 
 .navigation-item__link {
   color: #7f7f7f;
+  text-decoration: none;
 }
 
 /* Latest news */
+.site-advertising__link {
+  width: 1200px;
+  height: 128px;
+}
+.latest-news__list {
+  list-style: none;
+}
+.latest-news__item {
+  width: 394px;
+  background-color: #f6f6f6;
+}
+.width-large {
+  width: 358px;
+}
+.width-middle {
+  width: 346px;
+}
+.width-small {
+  width: 338px;
+}
 .latest-news__item-title {
   font-style: normal;
   font-weight: 500;
@@ -46,12 +95,23 @@
   color: #4a4b4c;
 }
 
+.latest-news__item-image {
+  width: 359px;
+  height: 165px;
+}
+
 .publish-company {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+}
+
+.banner-wrapper {
+  width: 1050px;
+  height: 100px;
+  background-color: #ffd7ba;
 }
 
 .banner-title {
@@ -71,6 +131,15 @@
 }
 
 /* Country news */
+.country-news-item {
+  width: 797px;
+  background-color: #f6f6f6;
+}
+
+.country-news-item__info {
+  width: 535px;
+}
+
 .about-country__title {
   font-style: normal;
   font-weight: 500;
@@ -103,10 +172,25 @@
 }
 
 .loading-btn {
+  width: 797px;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  background-color: #f6f6f6;
   color: #000000;
+}
+
+.short-news {
+  width: 393px;
+}
+
+.short-news-list {
+  list-style: none;
+}
+
+.short-news-info {
+  background-color: #f6f6f6;
 }
 
 .short-news-info__title {
@@ -131,10 +215,23 @@
   line-height: 15px;
   color: #5e5f61;
 }
+.country-news-image {
+  width: 210px;
+  height: 165px;
+}
+
+.olmos-banner-image {
+  width: 393px;
+  height: 338px;
+}
 
 /* Footer */
 .site-footer {
   background-color: #7297ef;
+}
+
+.footer-category-list {
+  list-style: none;
 }
 
 .footer-logo-description {
@@ -143,6 +240,14 @@
   font-size: 12px;
   line-height: 19px;
   color: #ffffff;
+}
+
+.social-media-text-wrapper {
+  width: 161px;
+}
+
+.social-media-list {
+  list-style: none;
 }
 
 .footer-category-item {

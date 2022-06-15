@@ -11,36 +11,40 @@
     <!-- Header -->
     <header class="site-header">
       <div class="site-header__top">
-        <a class="site-header__logo" href="./index.html">
-          <img
-            class="site-header__logo-image"
-            src="./image/namanganliklar-logo-blue.svg"
-            alt="namanganliklar 24 logo blue"
-            width="276"
-            height="45"
-          />
-        </a>
-        <ul class="header-price-list">
-          <li class="header-price-item">
-            <p class="header-price-text">
-              <strong class="header-price-text__icon">$</strong>10137.2
-            </p>
-          </li>
-          <li class="header-price-item">
-            <p class="header-price-text">
-              <strong class="header-price-text__icon">P</strong>138.26
-            </p>
-          </li>
-        </ul>
+        <div class="site-header__top-start">
+          <a class="site-header__logo" href="./index.html">
+            <img
+              class="site-header__logo-image"
+              src="./image/namanganliklar-logo-blue.svg"
+              alt="namanganliklar 24 logo blue"
+              width="276"
+              height="45"
+            />
+          </a>
+          <ul class="header-price-list">
+            <li class="header-price-item">
+              <p class="header-price-text">
+                <strong class="header-price-text__icon">$</strong>10137.2
+              </p>
+            </li>
+            <li class="header-price-item">
+              <p class="header-price-text">
+                <strong class="header-price-text__icon">P</strong>138.26
+              </p>
+            </li>
+          </ul>
+        </div>
 
-        <div class="search-box"></div>
+        <div class="site-header__top-end">
+          <div class="search-box"></div>
 
-        <span class="site-lenguage">
-          <a class="site-lenguage__uz" href="#">УЗ</a>
-          <a class="site-lenguage__ru" href="#">РУ</a>
-        </span>
+          <span class="site-lenguage">
+            <a class="site-lenguage__uz" href="#">УЗ</a>
+            <a class="site-lenguage__ru" href="#">РУ</a>
+          </span>
 
-        <a class="header-signIn-btn" href="#">Войти</a>
+          <a class="header-signIn-btn" href="#">Войти</a>
+        </div>
       </div>
       <!-- nav -->
       <nav class="site-navigation">
@@ -109,10 +113,12 @@
       <section class="latest-news">
         <ul class="latest-news__list">
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
-              соглашения
-            </h2>
+            <div class="latest-news__item-title-wrapper width-large">
+              <h2 class="latest-news__item-title">
+                Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
+                соглашения
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Лидер Социал-демократической партии Германии (СДПГ) и кандидат на
               должность...
@@ -149,9 +155,13 @@
             </div>
           </li>
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Ученые доказали экспериментальным путем пользу покровных культур
-            </h2>
+            <div
+              class="latest-news__item-title-wrapper width-middle width-middle"
+            >
+              <h2 class="latest-news__item-title">
+                Ученые доказали экспериментальным путем пользу покровных культур
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Новое исследование ученых университета Иллинойса объединяет
               полевые данные...
@@ -185,9 +195,13 @@
             </div>
           </li>
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
-            </h2>
+            <div
+              class="latest-news__item-title-wrapper width-large width-middle"
+            >
+              <h2 class="latest-news__item-title">
+                Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Автопарк Baidu состоит из модифицированных электромобилей EV...
             </p>
@@ -217,9 +231,13 @@
             </div>
           </li>
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Стали известны ёмкости аккумуляторов всех моделей iPhone 13
-            </h2>
+            <div
+              class="latest-news__item-title-wrapper width-middle width-large"
+            >
+              <h2 class="latest-news__item-title">
+                Стали известны ёмкости аккумуляторов всех моделей iPhone 13
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Во время презентации iPhone 13 Apple придала большое значения...
             </p>
@@ -249,10 +267,14 @@
             </div>
           </li>
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Nature: ученые смогли доказать природное происхождение
-              коронавируса SARS-CoV-2
-            </h2>
+            <div
+              class="latest-news__item-title-wrapper width-small width-middle"
+            >
+              <h2 class="latest-news__item-title">
+                Nature: ученые смогли доказать природное происхождение
+                коронавируса SARS-CoV-2
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Во время презентации iPhone 13 Apple придала большое значение...
             </p>
@@ -284,9 +306,11 @@
             </div>
           </li>
           <li class="latest-news__item">
-            <h2 class="latest-news__item-title">
-              Китайская марка JAC повысила цены на лифтбек и пикап в России
-            </h2>
+            <div class="latest-news__item-title-wrapper width-small">
+              <h2 class="latest-news__item-title">
+                Китайская марка JAC повысила цены на лифтбек и пикап в России
+              </h2>
+            </div>
             <p class="latest-news__item-text">
               Две модели китайского бренда JAC из пяти, представленных на
               российском...
@@ -347,32 +371,35 @@
               width="210"
               height="165"
             />
-            <h3 class="country-news-item__title">
-              Китайский Чунцин запустил чартерный рейс для студентов до Британии
-            </h3>
-            <p class="country-news-item__text">
-              Чартерный рейс с 244 китайскими студентами вылетел из города
-              центрального подчинения Чунцина на юго-западе Китая в британский
-              Манчестер...
-            </p>
-            <div class="country-news-item__publish-wrapper">
-              <img
-                class="country-news-item__publish-wrapper-image"
-                src="./image/krasnaya-vesna.jpg"
-                srcset="
-                  ./image/krasnaya-vesna.jpg    1x,
-                  ./image/krasnaya-vesna@2x.jpg 2x
-                "
-                alt="krasnaya-vesna image"
-                width="20"
-                height="20"
-              />
-              <p class="country-news-publish-company">
-                ИА Красная Весна
-                <time class="country-publish-time" datetime="2022-06-04 12:25"
-                  >12:25</time
-                >
+            <div class="country-news-item__info">
+              <h3 class="country-news-item__title">
+                Китайский Чунцин запустил чартерный рейс для студентов до
+                Британии
+              </h3>
+              <p class="country-news-item__text">
+                Чартерный рейс с 244 китайскими студентами вылетел из города
+                центрального подчинения Чунцина на юго-западе Китая в британский
+                Манчестер...
               </p>
+              <div class="country-news-item__publish-wrapper">
+                <img
+                  class="country-news-item__publish-wrapper-image"
+                  src="./image/krasnaya-vesna.jpg"
+                  srcset="
+                    ./image/krasnaya-vesna.jpg    1x,
+                    ./image/krasnaya-vesna@2x.jpg 2x
+                  "
+                  alt="krasnaya-vesna image"
+                  width="20"
+                  height="20"
+                />
+                <p class="country-news-publish-company">
+                  ИА Красная Весна
+                  <time class="country-publish-time" datetime="2022-06-04 12:25"
+                    >12:25</time
+                  >
+                </p>
+              </div>
             </div>
           </article>
           <article class="country-news-item">
@@ -384,30 +411,32 @@
               width="210"
               height="165"
             />
-            <h3 class="country-news-item__title">
-              В Германии выпустят ограниченную партию плюшевых мишек в образе
-              Меркель
-            </h3>
-            <p class="country-news-item__text">
-              БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству
-              плюшевых игрушек в городе Кобург (федеральная земля Бавария)
-              изготовила уникального...
-            </p>
-            <div class="country-news-item__publish-wrapper">
-              <img
-                class="country-news-item__publish-wrapper-image"
-                src="./image/tacc.png"
-                srcset="./image/tacc.png 1x, ./image/tacc@2x.png 2x"
-                alt="tacc news image"
-                width="20"
-                height="20"
-              />
-              <p class="country-news-publish-company">
-                ТАСС
-                <time class="country-publish-time" datetime="2022-06-04 11:35"
-                  >11:35</time
-                >
+            <div class="country-news-item__info">
+              <h3 class="country-news-item__title">
+                В Германии выпустят ограниченную партию плюшевых мишек в образе
+                Меркель
+              </h3>
+              <p class="country-news-item__text">
+                БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству
+                плюшевых игрушек в городе Кобург (федеральная земля Бавария)
+                изготовила уникального...
               </p>
+              <div class="country-news-item__publish-wrapper">
+                <img
+                  class="country-news-item__publish-wrapper-image"
+                  src="./image/tacc.png"
+                  srcset="./image/tacc.png 1x, ./image/tacc@2x.png 2x"
+                  alt="tacc news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="country-news-publish-company">
+                  ТАСС
+                  <time class="country-publish-time" datetime="2022-06-04 11:35"
+                    >11:35</time
+                  >
+                </p>
+              </div>
             </div>
           </article>
           <article class="country-news-item">
@@ -419,30 +448,35 @@
               width="210"
               height="165"
             />
-            <h3 class="country-news-item__title">
-              Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо
-              сейчас
-            </h3>
-            <p class="country-news-item__text">
-              За последние месяцы инвесторы в китайский рынок пережили настоящее
-              потрясение — из-за ужесточения регулирования технологического
-              сектора и критики некоторых...
-            </p>
-            <div class="country-news-item__publish-wrapper">
-              <img
-                class="country-news-item__publish-wrapper-image"
-                src="./image/investment.png"
-                srcset="./image/investment.png 1x, ./image/investment@2x.png 2x"
-                alt="investment news image"
-                width="20"
-                height="20"
-              />
-              <p class="country-news-publish-company">
-                РБК Инвестиции
-                <time class="country-publish-time" datetime="2022-06-04 09:35"
-                  >09:35</time
-                >
+            <div class="country-news-item__info">
+              <h3 class="country-news-item__title">
+                Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                прямо сейчас
+              </h3>
+              <p class="country-news-item__text">
+                За последние месяцы инвесторы в китайский рынок пережили
+                настоящее потрясение — из-за ужесточения регулирования
+                технологического сектора и критики некоторых...
               </p>
+              <div class="country-news-item__publish-wrapper">
+                <img
+                  class="country-news-item__publish-wrapper-image"
+                  src="./image/investment.png"
+                  srcset="
+                    ./image/investment.png    1x,
+                    ./image/investment@2x.png 2x
+                  "
+                  alt="investment news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="country-news-publish-company">
+                  РБК Инвестиции
+                  <time class="country-publish-time" datetime="2022-06-04 09:35"
+                    >09:35</time
+                  >
+                </p>
+              </div>
             </div>
           </article>
           <article class="country-news-item">
@@ -454,33 +488,35 @@
               width="210"
               height="165"
             />
-            <h3 class="country-news-item__title">
-              Китай раскритиковал заключенный Австралией, США и Великобританией
-              антикитайский союз AUKUS
-            </h3>
-            <p class="country-news-item__text">
-              Не только Франция, которая лишилась многомиллиардного контракта с
-              Австралий, осталась недовольна созданием трехстороннего оборонного
-              альянса AUKUS, пишет Anna-News.info
-            </p>
-            <div class="country-news-item__publish-wrapper">
-              <img
-                class="country-news-item__publish-wrapper-image"
-                src="./image/solenka.info.png"
-                srcset="
-                  ./image/solenka.info.png    1x,
-                  ./image/solenka.info@2x.png 2x
-                "
-                alt="solenka info news"
-                width="20"
-                height="20"
-              />
-              <p class="country-news-publish-company">
-                Solenka.info
-                <time class="country-publish-time" datetime="2022-06-04 19:43"
-                  >19:43</time
-                >
+            <div class="country-news-item__info">
+              <h3 class="country-news-item__title">
+                Китай раскритиковал заключенный Австралией, США и
+                Великобританией антикитайский союз AUKUS
+              </h3>
+              <p class="country-news-item__text">
+                Не только Франция, которая лишилась многомиллиардного контракта
+                с Австралий, осталась недовольна созданием трехстороннего
+                оборонного альянса AUKUS, пишет Anna-News.info
               </p>
+              <div class="country-news-item__publish-wrapper">
+                <img
+                  class="country-news-item__publish-wrapper-image"
+                  src="./image/solenka.info.png"
+                  srcset="
+                    ./image/solenka.info.png    1x,
+                    ./image/solenka.info@2x.png 2x
+                  "
+                  alt="solenka info news"
+                  width="20"
+                  height="20"
+                />
+                <p class="country-news-publish-company">
+                  Solenka.info
+                  <time class="country-publish-time" datetime="2022-06-04 19:43"
+                    >19:43</time
+                  >
+                </p>
+              </div>
             </div>
           </article>
           <a class="loading-btn" href="#">Показать ещё </a>
@@ -608,7 +644,9 @@
       </div>
       <hr />
       <div class="social-media">
-        <p class="social-media-text">Наши социальные сети</p>
+        <div class="social-media-text-wrapper">
+          <p class="social-media-text">Наши социальные сети</p>
+        </div>
         <ul class="social-media-list">
           <li class="social-media-item">
             <a class="social-media-item__link" href="#" target="blank">
