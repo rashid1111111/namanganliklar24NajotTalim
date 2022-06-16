@@ -1,17 +1,39 @@
+main {
+  width: 1200px;
+}
 /* Header */
 .site-header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #f6f6f6;
 }
+
+.site-header__top-start {
+  display: flex;
+  align-items: center;
+}
+
 .site-header__logo-image {
   width: 276px;
   height: 45px;
 }
+
 .header-price-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
 }
+
+.header-price-item {
+  margin-right: 25px;
+}
+
 .header-price-text {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
@@ -19,23 +41,35 @@
 .header-price-text__icon {
   color: #2959ce;
 }
+
+.site-header__top-end {
+  display: flex;
+  align-items: center;
+}
+
 .search-box {
   width: 275px;
   height: 45px;
   background-color: #fff;
 }
 .site-lenguage {
+  font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
+  margin-left: 25px;
+  margin-right: 25px;
   font-size: 13px;
   line-height: 12px;
 }
 .site-lenguage__uz,
 .site-lenguage__ru {
+  text-decoration: none;
   color: #000000;
 }
 .header-signIn-btn {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
   font-size: 16px;
   line-height: 19px;
   background: #7296ec;
@@ -45,9 +79,13 @@
   width: 1200px;
 }
 .navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 .navigation-item {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -65,11 +103,17 @@
   height: 128px;
 }
 .latest-news__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 .latest-news__item {
   width: 394px;
+  border-radius: 15px;
   background-color: #f6f6f6;
+  margin-bottom: 10px;
 }
 .width-large {
   width: 358px;
@@ -81,6 +125,7 @@
   width: 338px;
 }
 .latest-news__item-title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -88,6 +133,7 @@
   color: #000000;
 }
 .latest-news__item-text {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -100,21 +146,32 @@
   height: 165px;
 }
 
+.latest-news-publish-author {
+  display: flex;
+  align-items: center;
+}
+
 .publish-company {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+  margin-left: 10px;
 }
 
 .banner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1050px;
   height: 100px;
   background-color: #ffd7ba;
 }
 
 .banner-title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -122,6 +179,7 @@
   color: #000000;
 }
 .banner-btn {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -132,6 +190,8 @@
 
 /* Country news */
 .country-news-item {
+  display: flex;
+  align-items: center;
   width: 797px;
   background-color: #f6f6f6;
 }
@@ -141,6 +201,7 @@
 }
 
 .about-country__title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -149,6 +210,7 @@
 }
 
 .country-news-item__title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -156,6 +218,7 @@
   color: #000000;
 }
 .country-news-item__text {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -164,6 +227,7 @@
 }
 
 .country-news-publish-company {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -172,13 +236,17 @@
 }
 
 .loading-btn {
+  font-family: "Rubik", "Arial", sans-serif;
   width: 797px;
   display: block;
+  text-align: center;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   background-color: #f6f6f6;
   color: #000000;
+  margin: 10px 0;
 }
 
 .short-news {
@@ -194,14 +262,23 @@
 }
 
 .short-news-info__title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
+  margin: 0;
   line-height: 28px;
   color: #000000;
 }
 
+.about-country-parts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .short-news-item__title {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -209,6 +286,7 @@
   color: #000000;
 }
 .short-news-company {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -218,6 +296,12 @@
 .country-news-image {
   width: 210px;
   height: 165px;
+  margin-right: 15px;
+}
+
+.country-news-item__publish-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .olmos-banner-image {
@@ -227,7 +311,21 @@
 
 /* Footer */
 .site-footer {
+  width: 1200px;
+}
+
+.site-footer {
   background-color: #7297ef;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-logo-text-wrapper {
+  width: 229px;
 }
 
 .footer-category-list {
@@ -235,6 +333,7 @@
 }
 
 .footer-logo-description {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -251,11 +350,37 @@
 }
 
 .footer-category-item {
+  font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 25px;
 }
 .footer-category-item__link {
+  text-decoration: none;
   color: #ffffff;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-media-text-wrapper {
+  width: 161px;
+}
+.social-media-text {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.social-media-list {
+  display: flex;
+  align-items: center;
+}
+.social-media-item {
+  margin-left: 25px;
 }
