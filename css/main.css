@@ -49,31 +49,63 @@ main {
 
 .search-box {
   width: 275px;
-  height: 45px;
   background-color: #fff;
+  border-radius: 60px;
+  padding: 15px;
 }
+
+.search-box-text {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d8d8d;
+  padding-left: 41px;
+}
+
 .site-lenguage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
   margin-left: 25px;
   margin-right: 25px;
   font-size: 13px;
+  padding: 3px;
   line-height: 12px;
+  background: #dce6ff;
+  border-radius: 39px;
 }
 .site-lenguage__uz,
 .site-lenguage__ru {
   text-decoration: none;
   color: #000000;
 }
+
+.site-lenguage__ru {
+  padding-right: 13px;
+}
+
+.site-lenguage__uz {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 .header-signIn-btn {
   font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
+  padding: 13px 20px;
   font-size: 16px;
   line-height: 19px;
   background: #7296ec;
   color: #ffffff;
+  border-radius: 10px;
 }
 .site-navigation {
   width: 1200px;
@@ -167,6 +199,7 @@ main {
   justify-content: space-between;
   width: 1050px;
   height: 100px;
+  border-radius: 10px;
   background-color: #ffd7ba;
 }
 
@@ -177,15 +210,19 @@ main {
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  width: 404px;
 }
 .banner-btn {
   font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  padding: 13px 30px;
+  border-radius: 10px;
   line-height: 24px;
   background: #f78b3b;
   color: #ffffff;
+  text-decoration: none;
 }
 
 /* Country news */
@@ -194,6 +231,8 @@ main {
   align-items: center;
   width: 797px;
   background-color: #f6f6f6;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .country-news-item__info {
@@ -247,6 +286,8 @@ main {
   background-color: #f6f6f6;
   color: #000000;
   margin: 10px 0;
+  padding: 17px;
+  border-radius: 10px;
 }
 
 .short-news {
@@ -259,6 +300,7 @@ main {
 
 .short-news-info {
   background-color: #f6f6f6;
+  border-radius: 15px;
 }
 
 .short-news-info__title {
