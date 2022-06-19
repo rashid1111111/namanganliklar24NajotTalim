@@ -17,78 +17,86 @@
     <!-- Header -->
     <header class="site-header">
       <div class="site-header__top">
-        <div class="site-header__top-start">
-          <a class="site-header__logo" href="./index.html">
-            <img
-              class="site-header__logo-image"
-              src="./image/namanganliklar-logo-blue.svg"
-              alt="namanganliklar 24 logo blue"
-              width="276"
-              height="45"
-            />
-          </a>
-          <ul class="header-price-list">
-            <li class="header-price-item">
-              <p class="header-price-text">
-                <strong class="header-price-text__icon">$</strong>10137.2
-              </p>
-            </li>
-            <li class="header-price-item">
-              <p class="header-price-text">
-                <strong class="header-price-text__icon">P</strong>138.26
-              </p>
-            </li>
-          </ul>
-        </div>
+        <div class="container">
+          <div class="site-header-top-inner">
+            <div class="site-header__top-start">
+              <a class="site-header__logo" href="./index.html">
+                <img
+                  class="site-header__logo-image"
+                  src="./image/namanganliklar-logo-blue.svg"
+                  alt="namanganliklar 24 logo blue"
+                  width="276"
+                  height="45"
+                />
+              </a>
+              <ul class="header-price-list">
+                <li class="header-price-item">
+                  <p class="header-price-text">
+                    <strong class="header-price-text__icon">$</strong>10137.2
+                  </p>
+                </li>
+                <li class="header-price-item">
+                  <p class="header-price-text">
+                    <strong class="header-price-text__icon">P</strong>138.26
+                  </p>
+                </li>
+              </ul>
+            </div>
 
-        <div class="site-header__top-end">
-          <div class="search-box">
-            <span class="search-box-text">Поиск</span>
+            <div class="site-header__top-end">
+              <div class="search-box">
+                <span class="search-box-text">Поиск</span>
+              </div>
+
+              <div class="site-lenguage">
+                <a class="site-lenguage__uz" href="#">УЗ</a>
+                <a class="site-lenguage__ru" href="#">РУ</a>
+              </div>
+
+              <a class="header-signIn-btn" href="#">Войти</a>
+            </div>
           </div>
-
-          <div class="site-lenguage">
-            <a class="site-lenguage__uz" href="#">УЗ</a>
-            <a class="site-lenguage__ru" href="#">РУ</a>
-          </div>
-
-          <a class="header-signIn-btn" href="#">Войти</a>
         </div>
       </div>
       <!-- nav -->
-      <nav class="site-navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="./index.html">Главное</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Интересное</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Экономика</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Политика</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Общество</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Технологии</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Спорт</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Культура</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Происшествия</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-item__link" href="#">Наука</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="site-header-bottom">
+        <div class="container">
+          <nav class="site-navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="./index.html">Главное</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Интересное</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Экономика</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Политика</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Общество</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Технологии</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Спорт</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Культура</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Происшествия</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#">Наука</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <!-- /nav -->
     </header>
     <!-- /Header -->
@@ -97,513 +105,523 @@
     <main>
       <!-- Aside -->
       <aside class="site-advertising">
-        <a
-          class="site-advertising__link"
-          href="https://shopme.uz/"
-          target="blank"
-        >
-          <img
-            class="site-advertising__image"
-            src="./image/shopme-banner.jpg"
-            srcset="
-              ./image/shopme-banner.jpg    1x,
-              ./image/shopme-banner@2x.jpg 2x
-            "
-            alt="shopme company banner"
-            width="1200"
-            height="128"
-          />
-        </a>
+        <div class="container">
+          <a
+            class="site-advertising__link"
+            href="https://shopme.uz/"
+            target="blank"
+          >
+            <img
+              class="site-advertising__image"
+              src="./image/shopme-banner.jpg"
+              srcset="
+                ./image/shopme-banner.jpg    1x,
+                ./image/shopme-banner@2x.jpg 2x
+              "
+              alt="shopme company banner"
+              width="1200"
+              height="128"
+            />
+          </a>
+        </div>
       </aside>
       <!-- /Aside -->
 
       <!-- Section first -->
       <section class="latest-news">
-        <ul class="latest-news__list">
-          <li class="latest-news__item">
-            <div class="latest-news__item-title-wrapper width-large">
-              <h2 class="latest-news__item-title">
-                Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
-                соглашения
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Лидер Социал-демократической партии Германии (СДПГ) и кандидат на
-              должность...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/flagOfGerman.jpg"
-              srcset="
-                ./image/flagOfGerman.jpg    1x,
-                ./image/flagOfGerman@2x.jpg 2x
-              "
-              alt="flag of Germany"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
+        <div class="container">
+          <ul class="latest-news__list">
+            <li class="latest-news__item">
+              <div class="latest-news__item-title-wrapper width-large">
+                <h2 class="latest-news__item-title">
+                  Кандидат на пост канцлера ФРГ Шольц назвал условия
+                  коалиционного соглашения
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Лидер Социал-демократической партии Германии (СДПГ) и кандидат
+                на должность...
+              </p>
               <img
-                class="latest-new-publish-author__image"
-                src="./image/krasnaya-vesna.jpg"
+                class="latest-news__item-image"
+                src="./image/flagOfGerman.jpg"
                 srcset="
-                  ./image/krasnaya-vesna.jpg    1x,
-                  ./image/krasnaya-vesna@2x.jpg 2x
+                  ./image/flagOfGerman.jpg    1x,
+                  ./image/flagOfGerman@2x.jpg 2x
                 "
-                alt="krasnaya-vesna news"
-                width="20"
-                height="20"
+                alt="flag of Germany"
+                width="359"
+                height="165"
               />
-              <p class="publish-company">
-                ИА Красная Весна
-                <time class="publish-time" datetime="2022-06-04 15:55"
-                  >15:55</time
-                >
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/krasnaya-vesna.jpg"
+                  srcset="
+                    ./image/krasnaya-vesna.jpg    1x,
+                    ./image/krasnaya-vesna@2x.jpg 2x
+                  "
+                  alt="krasnaya-vesna news"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  ИА Красная Весна
+                  <time class="publish-time" datetime="2022-06-04 15:55"
+                    >15:55</time
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="latest-news__item">
+              <div
+                class="latest-news__item-title-wrapper width-middle width-middle"
+              >
+                <h2 class="latest-news__item-title">
+                  Ученые доказали экспериментальным путем пользу покровных
+                  культур
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Новое исследование ученых университета Иллинойса объединяет
+                полевые данные...
               </p>
-            </div>
-          </li>
-          <li class="latest-news__item">
-            <div
-              class="latest-news__item-title-wrapper width-middle width-middle"
-            >
-              <h2 class="latest-news__item-title">
-                Ученые доказали экспериментальным путем пользу покровных культур
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Новое исследование ученых университета Иллинойса объединяет
-              полевые данные...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/wheatInField.jpg"
-              srcset="
-                ./image/wheatInField.jpg      1x,
-                ./image/wheatInField@2x.jpg2x
-              "
-              alt="image of wheat in field"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
               <img
-                class="latest-new-publish-author__image"
-                src="./image/gazeta.ru.jpg"
-                srcset="./image/gazeta.ru.jpg 1x, ./image/gazeta.ru@2x.jpg 2x"
-                alt="gazeta.ru image"
-                width="20"
-                height="20"
-              />
-              <p class="publish-company">
-                Газета.Ru
-                <time class="publish-time" datetime="2022-06-04 12:54"
-                  >12:54</time
-                >
-              </p>
-            </div>
-          </li>
-          <li class="latest-news__item">
-            <div
-              class="latest-news__item-title-wrapper width-large width-middle"
-            >
-              <h2 class="latest-news__item-title">
-                Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Автопарк Baidu состоит из модифицированных электромобилей EV...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/carOfBaidu.jpg"
-              srcset="./image/carOfBaidu.jpg 1x, ./image/carOfBaidu@2x.jpg 2x"
-              alt="car of Baidu"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
-              <img
-                class="latest-new-publish-author__image"
-                src="./image/xaytek.jpg"
-                srcset="./image/xaytek.jpg 1x, ./image/xaytek@2x.jpg 2x"
-                alt="xaytek+ news image"
-                width="20"
-                height="20"
-              />
-              <p class="publish-company">
-                Хайтек+
-                <time class="publish-time" datetime="2022-06-04 13:44"
-                  >13:44</time
-                >
-              </p>
-            </div>
-          </li>
-          <li class="latest-news__item">
-            <div
-              class="latest-news__item-title-wrapper width-middle width-large"
-            >
-              <h2 class="latest-news__item-title">
-                Стали известны ёмкости аккумуляторов всех моделей iPhone 13
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Во время презентации iPhone 13 Apple придала большое значения...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/smartphone.jpg"
-              srcset="./image/smartphone.jpg 1x, ./image/smartphone@2x.jpg 2x"
-              alt="apple 13 phone image"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
-              <img
-                class="latest-new-publish-author__image"
-                src="./image/digger.ru.jpg"
-                srcset="./image/digger.ru.jpg 1x, ./image/digger.ru@2x.jpg 2x"
-                alt="digger.ru news image"
-                width="20"
-                height="20"
-              />
-              <p class="publish-company">
-                Digger.ru
-                <time class="publish-time" datetime="2022-06-04 14:25"
-                  >14:25</time
-                >
-              </p>
-            </div>
-          </li>
-          <li class="latest-news__item">
-            <div
-              class="latest-news__item-title-wrapper width-small width-middle"
-            >
-              <h2 class="latest-news__item-title">
-                Nature: ученые смогли доказать природное происхождение
-                коронавируса SARS-CoV-2
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Во время презентации iPhone 13 Apple придала большое значение...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/vaccineOfCOVID.jpg"
-              srcset="
-                ./image/vaccineOfCOVID.jpg    1x,
-                ./image/vaccineOfCOVID@2x.jpg 2x
-              "
-              alt="COVID19 vaccine image"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
-              <img
-                class="latest-new-publish-author__image"
-                src="./image/lenta.ru.jpg"
-                alt="lenta.ru news image"
-                width="20"
-                height="20"
-              />
-              <p class="publish-company">
-                Lenta.ru
-                <time class="publish-time" datetime="2022-06-04 10:54"
-                  >10:54</time
-                >
-              </p>
-            </div>
-          </li>
-          <li class="latest-news__item">
-            <div class="latest-news__item-title-wrapper width-small">
-              <h2 class="latest-news__item-title">
-                Китайская марка JAC повысила цены на лифтбек и пикап в России
-              </h2>
-            </div>
-            <p class="latest-news__item-text">
-              Две модели китайского бренда JAC из пяти, представленных на
-              российском...
-            </p>
-            <img
-              class="latest-news__item-image"
-              src="./image/carOfJAC.jpg"
-              srcset="./image/carOfJAC.jpg 1x, ./image/carOfJAC@2x.jpg 2x"
-              alt="JAC company car"
-              width="359"
-              height="165"
-            />
-            <div class="latest-news-publish-author">
-              <img
-                class="latest-new-publish-author__image"
-                src="./image/trantas-news.jpg"
+                class="latest-news__item-image"
+                src="./image/wheatInField.jpg"
                 srcset="
-                  ./image/trantas-news.jpg    1x,
-                  ./image/trantas-news@2x.jpg 2x
+                  ./image/wheatInField.jpg      1x,
+                  ./image/wheatInField@2x.jpg2x
                 "
-                alt="trantas-news image"
-                width="20"
-                height="20"
+                alt="image of wheat in field"
+                width="359"
+                height="165"
               />
-              <p class="publish-company">
-                Тарантас Ньюс
-                <time class="publish-time" datetime="2022-06-04 10:44"
-                  >10:44</time
-                >
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/gazeta.ru.jpg"
+                  srcset="./image/gazeta.ru.jpg 1x, ./image/gazeta.ru@2x.jpg 2x"
+                  alt="gazeta.ru image"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  Газета.Ru
+                  <time class="publish-time" datetime="2022-06-04 12:54"
+                    >12:54</time
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="latest-news__item">
+              <div
+                class="latest-news__item-title-wrapper width-large width-middle"
+              >
+                <h2 class="latest-news__item-title">
+                  Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Автопарк Baidu состоит из модифицированных электромобилей EV...
               </p>
-            </div>
-          </li>
-        </ul>
+              <img
+                class="latest-news__item-image"
+                src="./image/carOfBaidu.jpg"
+                srcset="./image/carOfBaidu.jpg 1x, ./image/carOfBaidu@2x.jpg 2x"
+                alt="car of Baidu"
+                width="359"
+                height="165"
+              />
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/xaytek.jpg"
+                  srcset="./image/xaytek.jpg 1x, ./image/xaytek@2x.jpg 2x"
+                  alt="xaytek+ news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  Хайтек+
+                  <time class="publish-time" datetime="2022-06-04 13:44"
+                    >13:44</time
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="latest-news__item">
+              <div
+                class="latest-news__item-title-wrapper width-middle width-large"
+              >
+                <h2 class="latest-news__item-title">
+                  Стали известны ёмкости аккумуляторов всех моделей iPhone 13
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Во время презентации iPhone 13 Apple придала большое значения...
+              </p>
+              <img
+                class="latest-news__item-image"
+                src="./image/smartphone.jpg"
+                srcset="./image/smartphone.jpg 1x, ./image/smartphone@2x.jpg 2x"
+                alt="apple 13 phone image"
+                width="359"
+                height="165"
+              />
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/digger.ru.jpg"
+                  srcset="./image/digger.ru.jpg 1x, ./image/digger.ru@2x.jpg 2x"
+                  alt="digger.ru news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  Digger.ru
+                  <time class="publish-time" datetime="2022-06-04 14:25"
+                    >14:25</time
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="latest-news__item">
+              <div
+                class="latest-news__item-title-wrapper width-small width-middle"
+              >
+                <h2 class="latest-news__item-title">
+                  Nature: ученые смогли доказать природное происхождение
+                  коронавируса SARS-CoV-2
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Во время презентации iPhone 13 Apple придала большое значение...
+              </p>
+              <img
+                class="latest-news__item-image"
+                src="./image/vaccineOfCOVID.jpg"
+                srcset="
+                  ./image/vaccineOfCOVID.jpg    1x,
+                  ./image/vaccineOfCOVID@2x.jpg 2x
+                "
+                alt="COVID19 vaccine image"
+                width="359"
+                height="165"
+              />
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/lenta.ru.jpg"
+                  alt="lenta.ru news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  Lenta.ru
+                  <time class="publish-time" datetime="2022-06-04 10:54"
+                    >10:54</time
+                  >
+                </p>
+              </div>
+            </li>
+            <li class="latest-news__item">
+              <div class="latest-news__item-title-wrapper width-small">
+                <h2 class="latest-news__item-title">
+                  Китайская марка JAC повысила цены на лифтбек и пикап в России
+                </h2>
+              </div>
+              <p class="latest-news__item-text">
+                Две модели китайского бренда JAC из пяти, представленных на
+                российском...
+              </p>
+              <img
+                class="latest-news__item-image"
+                src="./image/carOfJAC.jpg"
+                srcset="./image/carOfJAC.jpg 1x, ./image/carOfJAC@2x.jpg 2x"
+                alt="JAC company car"
+                width="359"
+                height="165"
+              />
+              <div class="latest-news-publish-author">
+                <img
+                  class="latest-new-publish-author__image"
+                  src="./image/trantas-news.jpg"
+                  srcset="
+                    ./image/trantas-news.jpg    1x,
+                    ./image/trantas-news@2x.jpg 2x
+                  "
+                  alt="trantas-news image"
+                  width="20"
+                  height="20"
+                />
+                <p class="publish-company">
+                  Тарантас Ньюс
+                  <time class="publish-time" datetime="2022-06-04 10:44"
+                    >10:44</time
+                  >
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- /Section first -->
 
       <!-- Article -->
       <article class="site-banner">
-        <div class="banner-wrapper">
-          <h2 class="banner-title">
-            Хотите быть в курсе свежих новостей? Включите уведомления!
-          </h2>
-          <a class="banner-btn" href="#">Включит </a>
+        <div class="container">
+          <div class="banner-wrapper">
+            <h2 class="banner-title">
+              Хотите быть в курсе свежих новостей? Включите уведомления!
+            </h2>
+            <a class="banner-btn" href="#">Включит </a>
+          </div>
         </div>
       </article>
       <!-- /Article -->
 
       <!-- Section second -->
       <section class="about-country">
-        <h2 class="about-country__title">В мире</h2>
-        <div class="about-country-parts">
-          <div class="country-news-list">
-            <article class="country-news-item">
-              <img
-                class="country-news-image"
-                src="./image/airplane.jpg"
-                srcset="./image/airplane.jpg 1x, ./image/airplane@2x.jpg 2x"
-                alt="airplane image"
-                width="210"
-                height="165"
-              />
-              <div class="country-news-item__info">
-                <h3 class="country-news-item__title">
-                  Китайский Чунцин запустил чартерный рейс для студентов до
-                  Британии
-                </h3>
-                <p class="country-news-item__text">
-                  Чартерный рейс с 244 китайскими студентами вылетел из города
-                  центрального подчинения Чунцина на юго-западе Китая в
-                  британский Манчестер...
-                </p>
-                <div class="country-news-item__publish-wrapper">
-                  <img
-                    class="country-news-item__publish-wrapper-image"
-                    src="./image/krasnaya-vesna.jpg"
-                    srcset="
-                      ./image/krasnaya-vesna.jpg    1x,
-                      ./image/krasnaya-vesna@2x.jpg 2x
-                    "
-                    alt="krasnaya-vesna image"
-                    width="20"
-                    height="20"
-                  />
-                  <p class="country-news-publish-company">
-                    ИА Красная Весна
-                    <time
-                      class="country-publish-time"
-                      datetime="2022-06-04 12:25"
-                      >12:25</time
-                    >
-                  </p>
-                </div>
-              </div>
-            </article>
-            <article class="country-news-item">
-              <img
-                class="country-news-image"
-                src="./image/woman.jpg"
-                srcset="./image/woman.jpg 1x, ./image/woman@2x.jpg 2x"
-                alt="woman visit to Germay"
-                width="210"
-                height="165"
-              />
-              <div class="country-news-item__info">
-                <h3 class="country-news-item__title">
-                  В Германии выпустят ограниченную партию плюшевых мишек в
-                  образе Меркель
-                </h3>
-                <p class="country-news-item__text">
-                  БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
-                  производству плюшевых игрушек в городе Кобург (федеральная
-                  земля Бавария) изготовила уникального...
-                </p>
-                <div class="country-news-item__publish-wrapper">
-                  <img
-                    class="country-news-item__publish-wrapper-image"
-                    src="./image/tacc.png"
-                    srcset="./image/tacc.png 1x, ./image/tacc@2x.png 2x"
-                    alt="tacc news image"
-                    width="20"
-                    height="20"
-                  />
-                  <p class="country-news-publish-company">
-                    ТАСС
-                    <time
-                      class="country-publish-time"
-                      datetime="2022-06-04 11:35"
-                      >11:35</time
-                    >
-                  </p>
-                </div>
-              </div>
-            </article>
-            <article class="country-news-item">
-              <img
-                class="country-news-image"
-                src="./image/city.jpg"
-                srcset="./image/city.jpg 1x, ./image/city@2x.jpg 2x"
-                alt="people in city"
-                width="210"
-                height="165"
-              />
-              <div class="country-news-item__info">
-                <h3 class="country-news-item__title">
-                  Акции КНР утратили доверие инвесторов. Что делать с бумагами
-                  прямо сейчас
-                </h3>
-                <p class="country-news-item__text">
-                  За последние месяцы инвесторы в китайский рынок пережили
-                  настоящее потрясение — из-за ужесточения регулирования
-                  технологического сектора и критики некоторых...
-                </p>
-                <div class="country-news-item__publish-wrapper">
-                  <img
-                    class="country-news-item__publish-wrapper-image"
-                    src="./image/investment.png"
-                    srcset="
-                      ./image/investment.png    1x,
-                      ./image/investment@2x.png 2x
-                    "
-                    alt="investment news image"
-                    width="20"
-                    height="20"
-                  />
-                  <p class="country-news-publish-company">
-                    РБК Инвестиции
-                    <time
-                      class="country-publish-time"
-                      datetime="2022-06-04 09:35"
-                      >09:35</time
-                    >
-                  </p>
-                </div>
-              </div>
-            </article>
-            <article class="country-news-item">
-              <img
-                class="country-news-image"
-                src="./image/china.jpg"
-                srcset="./image/china.jpg 1x, ./image/china@2x.jpg 2x"
-                alt="Lot's of building in China"
-                width="210"
-                height="165"
-              />
-              <div class="country-news-item__info">
-                <h3 class="country-news-item__title">
-                  Китай раскритиковал заключенный Австралией, США и
-                  Великобританией антикитайский союз AUKUS
-                </h3>
-                <p class="country-news-item__text">
-                  Не только Франция, которая лишилась многомиллиардного
-                  контракта с Австралий, осталась недовольна созданием
-                  трехстороннего оборонного альянса AUKUS, пишет Anna-News.info
-                </p>
-                <div class="country-news-item__publish-wrapper">
-                  <img
-                    class="country-news-item__publish-wrapper-image"
-                    src="./image/solenka.info.png"
-                    srcset="
-                      ./image/solenka.info.png    1x,
-                      ./image/solenka.info@2x.png 2x
-                    "
-                    alt="solenka info news"
-                    width="20"
-                    height="20"
-                  />
-                  <p class="country-news-publish-company">
-                    Solenka.info
-                    <time
-                      class="country-publish-time"
-                      datetime="2022-06-04 19:43"
-                      >19:43</time
-                    >
-                  </p>
-                </div>
-              </div>
-            </article>
-            <a class="loading-btn" href="#">Показать ещё </a>
-          </div>
-          <div class="short-news">
-            <div class="short-news-info">
-              <h3 class="short-news-info__title">Главное</h3>
-              <ul class="short-news-list">
-                <li class="short-news-item">
-                  <h4 class="short-news-item__title">
-                    В Фергане создадут узбекско-пакистанский университет
-                  </h4>
-                  <p class="short-news-company">
-                    Sputnik Узбекистан
-                    <time class="short-news-time" datetime="2022-06-04 14:09"
-                      >14:09</time
-                    >
-                  </p>
-                </li>
-                <li class="short-news-item">
-                  <h4 class="short-news-item__title">
-                    Узбекистан утвердил соглашение о содействии занятости в
-                    странах СНГ
-                  </h4>
-                  <p class="short-news-company">
-                    ИА Красная Весна
-                    <time class="short-news-time" datetime="2022-06-04 10:19"
-                      >10:19</time
-                    >
-                  </p>
-                </li>
-                <li class="short-news-item">
-                  <h4 class="short-news-item__title">
-                    В Узбекистане увеличиваются очереди за автомобилями UzAuto
-                  </h4>
-                  <p class="short-news-company">
-                    Северная газета (Армянск)
-                    <time class="short-news-time" datetime="2022-06-04 13:50"
-                      >13:50</time
-                    >
-                  </p>
-                </li>
-                <li class="short-news-item">
-                  <h4 class="short-news-item__title">
-                    Минтуризма опровергло приостановку выплат за шаги
-                  </h4>
-                  <p class="short-news-company">
-                    Sputnik Узбекистан
-                    <time class="short-news-time" datetime="2022-06-04 14:32"
-                      >14:32</time
-                    >
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <aside class="olmos-banner-wrapper">
-              <a class="olmos-banner-link" href="#" target="blank">
+        <div class="container">
+          <h2 class="about-country__title">В мире</h2>
+          <div class="about-country-parts">
+            <div class="country-news-list">
+              <article class="country-news-item">
                 <img
-                  class="olmos-banner-image"
-                  src="./image/olmazor-banner.jpg"
-                  srcset="
-                    ./image/olmazor-banner.jpg    1x,
-                    ./image/olmazor-banner@2x.jpg 2x
-                  "
-                  alt="olmazor advertisement image"
-                  width="393"
-                  height="338"
+                  class="country-news-image"
+                  src="./image/airplane.jpg"
+                  srcset="./image/airplane.jpg 1x, ./image/airplane@2x.jpg 2x"
+                  alt="airplane image"
+                  width="210"
+                  height="165"
                 />
-              </a>
-            </aside>
+                <div class="country-news-item__info">
+                  <h3 class="country-news-item__title">
+                    Китайский Чунцин запустил чартерный рейс для студентов до
+                    Британии
+                  </h3>
+                  <p class="country-news-item__text">
+                    Чартерный рейс с 244 китайскими студентами вылетел из города
+                    центрального подчинения Чунцина на юго-западе Китая в
+                    британский Манчестер...
+                  </p>
+                  <div class="country-news-item__publish-wrapper">
+                    <img
+                      class="country-news-item__publish-wrapper-image"
+                      src="./image/krasnaya-vesna.jpg"
+                      srcset="
+                        ./image/krasnaya-vesna.jpg    1x,
+                        ./image/krasnaya-vesna@2x.jpg 2x
+                      "
+                      alt="krasnaya-vesna image"
+                      width="20"
+                      height="20"
+                    />
+                    <p class="country-news-publish-company">
+                      ИА Красная Весна
+                      <time
+                        class="country-publish-time"
+                        datetime="2022-06-04 12:25"
+                        >12:25</time
+                      >
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="country-news-item">
+                <img
+                  class="country-news-image"
+                  src="./image/woman.jpg"
+                  srcset="./image/woman.jpg 1x, ./image/woman@2x.jpg 2x"
+                  alt="woman visit to Germay"
+                  width="210"
+                  height="165"
+                />
+                <div class="country-news-item__info">
+                  <h3 class="country-news-item__title">
+                    В Германии выпустят ограниченную партию плюшевых мишек в
+                    образе Меркель
+                  </h3>
+                  <p class="country-news-item__text">
+                    БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
+                    производству плюшевых игрушек в городе Кобург (федеральная
+                    земля Бавария) изготовила уникального...
+                  </p>
+                  <div class="country-news-item__publish-wrapper">
+                    <img
+                      class="country-news-item__publish-wrapper-image"
+                      src="./image/tacc.png"
+                      srcset="./image/tacc.png 1x, ./image/tacc@2x.png 2x"
+                      alt="tacc news image"
+                      width="20"
+                      height="20"
+                    />
+                    <p class="country-news-publish-company">
+                      ТАСС
+                      <time
+                        class="country-publish-time"
+                        datetime="2022-06-04 11:35"
+                        >11:35</time
+                      >
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="country-news-item">
+                <img
+                  class="country-news-image"
+                  src="./image/city.jpg"
+                  srcset="./image/city.jpg 1x, ./image/city@2x.jpg 2x"
+                  alt="people in city"
+                  width="210"
+                  height="165"
+                />
+                <div class="country-news-item__info">
+                  <h3 class="country-news-item__title">
+                    Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                    прямо сейчас
+                  </h3>
+                  <p class="country-news-item__text">
+                    За последние месяцы инвесторы в китайский рынок пережили
+                    настоящее потрясение — из-за ужесточения регулирования
+                    технологического сектора и критики некоторых...
+                  </p>
+                  <div class="country-news-item__publish-wrapper">
+                    <img
+                      class="country-news-item__publish-wrapper-image"
+                      src="./image/investment.png"
+                      srcset="
+                        ./image/investment.png    1x,
+                        ./image/investment@2x.png 2x
+                      "
+                      alt="investment news image"
+                      width="20"
+                      height="20"
+                    />
+                    <p class="country-news-publish-company">
+                      РБК Инвестиции
+                      <time
+                        class="country-publish-time"
+                        datetime="2022-06-04 09:35"
+                        >09:35</time
+                      >
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="country-news-item">
+                <img
+                  class="country-news-image"
+                  src="./image/china.jpg"
+                  srcset="./image/china.jpg 1x, ./image/china@2x.jpg 2x"
+                  alt="Lot's of building in China"
+                  width="210"
+                  height="165"
+                />
+                <div class="country-news-item__info">
+                  <h3 class="country-news-item__title">
+                    Китай раскритиковал заключенный Австралией, США и
+                    Великобританией антикитайский союз AUKUS
+                  </h3>
+                  <p class="country-news-item__text">
+                    Не только Франция, которая лишилась многомиллиардного
+                    контракта с Австралий, осталась недовольна созданием
+                    трехстороннего оборонного альянса AUKUS, пишет
+                    Anna-News.info
+                  </p>
+                  <div class="country-news-item__publish-wrapper">
+                    <img
+                      class="country-news-item__publish-wrapper-image"
+                      src="./image/solenka.info.png"
+                      srcset="
+                        ./image/solenka.info.png    1x,
+                        ./image/solenka.info@2x.png 2x
+                      "
+                      alt="solenka info news"
+                      width="20"
+                      height="20"
+                    />
+                    <p class="country-news-publish-company">
+                      Solenka.info
+                      <time
+                        class="country-publish-time"
+                        datetime="2022-06-04 19:43"
+                        >19:43</time
+                      >
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <a class="loading-btn" href="#">Показать ещё </a>
+            </div>
+            <div class="short-news">
+              <div class="short-news-info">
+                <h3 class="short-news-info__title">Главное</h3>
+                <ul class="short-news-list">
+                  <li class="short-news-item">
+                    <h4 class="short-news-item__title">
+                      В Фергане создадут узбекско-пакистанский университет
+                    </h4>
+                    <p class="short-news-company">
+                      Sputnik Узбекистан
+                      <time class="short-news-time" datetime="2022-06-04 14:09"
+                        >14:09</time
+                      >
+                    </p>
+                  </li>
+                  <li class="short-news-item">
+                    <h4 class="short-news-item__title">
+                      Узбекистан утвердил соглашение о содействии занятости в
+                      странах СНГ
+                    </h4>
+                    <p class="short-news-company">
+                      ИА Красная Весна
+                      <time class="short-news-time" datetime="2022-06-04 10:19"
+                        >10:19</time
+                      >
+                    </p>
+                  </li>
+                  <li class="short-news-item">
+                    <h4 class="short-news-item__title">
+                      В Узбекистане увеличиваются очереди за автомобилями UzAuto
+                    </h4>
+                    <p class="short-news-company">
+                      Северная газета (Армянск)
+                      <time class="short-news-time" datetime="2022-06-04 13:50"
+                        >13:50</time
+                      >
+                    </p>
+                  </li>
+                  <li class="short-news-item">
+                    <h4 class="short-news-item__title">
+                      Минтуризма опровергло приостановку выплат за шаги
+                    </h4>
+                    <p class="short-news-company">
+                      Sputnik Узбекистан
+                      <time class="short-news-time" datetime="2022-06-04 14:32"
+                        >14:32</time
+                      >
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <aside class="olmos-banner-wrapper">
+                <a class="olmos-banner-link" href="#" target="blank">
+                  <img
+                    class="olmos-banner-image"
+                    src="./image/olmazor-banner.jpg"
+                    srcset="
+                      ./image/olmazor-banner.jpg    1x,
+                      ./image/olmazor-banner@2x.jpg 2x
+                    "
+                    alt="olmazor advertisement image"
+                    width="393"
+                    height="338"
+                  />
+                </a>
+              </aside>
+            </div>
           </div>
         </div>
       </section>
@@ -613,106 +631,112 @@
 
     <!-- Footer -->
     <footer class="site-footer">
-      <div class="footer-top">
-        <div class="footer-logo-wrapper">
-          <a class="footer-logo-link" href="./index.html">
-            <img
-              class="footer-logo-image"
-              src="./image/namanganliklar-logo-white.svg"
-              alt="namanganliklar-logo-white"
-              width="264"
-              height="28"
-            />
-          </a>
-          <div class="footer-logo-text-wrapper">
-            <p class="footer-logo-description">
-              Воспроизводство, копирование, использование информации с сайта
-              «NAMANGANLIKLAR24.UZ» возможно только с предварительного
-              письменного разрешения редакции.
-            </p>
+      <div class="container">
+        <div class="site-footer-wrapper">
+          <div class="footer-top">
+            <div class="footer-logo-wrapper">
+              <a class="footer-logo-link" href="./index.html">
+                <img
+                  class="footer-logo-image"
+                  src="./image/namanganliklar-logo-white.svg"
+                  alt="namanganliklar-logo-white"
+                  width="264"
+                  height="28"
+                />
+              </a>
+              <div class="footer-logo-text-wrapper">
+                <p class="footer-logo-description">
+                  Воспроизводство, копирование, использование информации с сайта
+                  «NAMANGANLIKLAR24.UZ» возможно только с предварительного
+                  письменного разрешения редакции.
+                </p>
+              </div>
+            </div>
+            <ul class="footer-category-list">
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#"
+                  >Информация о сайте</a
+                >
+              </li>
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#"
+                  >Использование материалов</a
+                >
+              </li>
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#">Напишите нам</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#">Темы дня</a>
+              </li>
+            </ul>
+            <ul class="footer-category-list list-second">
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#">Реклама</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#">Наша команда</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="footer-category-item__link" href="#"
+                  >Прислать новость</a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr class="social-media-line" />
+          <div class="social-media">
+            <div class="social-media-text-wrapper">
+              <p class="social-media-text">Наши социальные сети</p>
+            </div>
+            <ul class="social-media-list">
+              <li class="social-media-item">
+                <a class="social-media-item__link" href="#" target="blank">
+                  <img
+                    class="social-media-image"
+                    src="./image/facebook.svg"
+                    alt="facebook link"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-item__link" href="#" target="blank">
+                  <img
+                    class="social-media-image"
+                    src="./image/instagramm.svg"
+                    alt="instagramm link"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-item__link" href="#" target="blank">
+                  <img
+                    class="social-media-image"
+                    src="./image/telegramm.svg"
+                    alt="telegramm image"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-media-item__link" href="#" target="blank">
+                  <img
+                    class="social-media-image"
+                    src="./image/you-tube.svg"
+                    alt="you-tube link"
+                    width="25"
+                    height="25"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <ul class="footer-category-list">
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#"
-              >Информация о сайте</a
-            >
-          </li>
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#"
-              >Использование материалов</a
-            >
-          </li>
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#">Напишите нам</a>
-          </li>
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#">Темы дня</a>
-          </li>
-        </ul>
-        <ul class="footer-category-list">
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#">Реклама</a>
-          </li>
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#">Наша команда</a>
-          </li>
-          <li class="footer-category-item">
-            <a class="footer-category-item__link" href="#">Прислать новость</a>
-          </li>
-        </ul>
-      </div>
-      <hr />
-      <div class="social-media">
-        <div class="social-media-text-wrapper">
-          <p class="social-media-text">Наши социальные сети</p>
-        </div>
-        <ul class="social-media-list">
-          <li class="social-media-item">
-            <a class="social-media-item__link" href="#" target="blank">
-              <img
-                class="social-media-image"
-                src="./image/facebook.svg"
-                alt="facebook link"
-                width="25"
-                height="25"
-              />
-            </a>
-          </li>
-          <li class="social-media-item">
-            <a class="social-media-item__link" href="#" target="blank">
-              <img
-                class="social-media-image"
-                src="./image/instagramm.svg"
-                alt="instagramm link"
-                width="25"
-                height="25"
-              />
-            </a>
-          </li>
-          <li class="social-media-item">
-            <a class="social-media-item__link" href="#" target="blank">
-              <img
-                class="social-media-image"
-                src="./image/telegramm.svg"
-                alt="telegramm image"
-                width="25"
-                height="25"
-              />
-            </a>
-          </li>
-          <li class="social-media-item">
-            <a class="social-media-item__link" href="#" target="blank">
-              <img
-                class="social-media-image"
-                src="./image/you-tube.svg"
-                alt="you-tube link"
-                width="25"
-                height="25"
-              />
-            </a>
-          </li>
-        </ul>
       </div>
     </footer>
     <!-- /Footer -->
