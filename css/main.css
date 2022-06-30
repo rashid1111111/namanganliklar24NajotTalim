@@ -82,13 +82,18 @@ body {
 
 .search-box-text {
   display: block;
+  border: none;
+  width: 100%;
   font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
-  padding-left: 41px;
+  padding-left: 27px;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #8d8d8d;
+  background-image: url("../image/search.svg");
+  background-repeat: no-repeat;
+  background-position: center left 2px;
 }
 
 .site-lenguage {
