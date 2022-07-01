@@ -247,6 +247,43 @@ body {
   align-items: center;
 }
 
+.latest-news-publish-author::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+
+.news-krasnaya-vesna {
+  background-image: url("../image/krasnaya-vesna.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-gazeta {
+  background-image: url("../image/gazeta.ru.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-xaytek {
+  background-image: url("../image/xaytek.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-digger {
+  background-image: url("../image/digger.ru.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-lenta {
+  background-image: url("../image/lenta.ru.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-trantas {
+  background-image: url("../image/trantas-news.jpg");
+  background-repeat: no-repeat;
+}
+
 .publish-company {
   margin: 0;
   font-family: "Rubik", "Arial", sans-serif;
@@ -448,6 +485,58 @@ body {
 .country-news-item__publish-wrapper {
   display: flex;
   align-items: center;
+}
+
+.country-news-item__publish-wrapper::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+
+.news-tacc {
+  background-image: url("../image/tacc.png");
+  background-repeat: no-repeat;
+}
+
+.news-investment {
+  background-image: url("../image/investment.png");
+  background-repeat: no-repeat;
+}
+
+.news-solyonka {
+  background-image: url("../image/solenka.info.png");
+  background-repeat: no-repeat;
+}
+
+.news-pepelas {
+  background-image: url("../image/pepelas.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-dns {
+  background-image: url("../image/DNS.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-sputnik {
+  background-image: url("../image/sputnik.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-ireactor {
+  background-image: url("../image/iReactor.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-kompaniya {
+  background-image: url("../image/kompaniya.jpg");
+  background-repeat: no-repeat;
+}
+
+.news-fergana {
+  background-image: url("../image/fergana.jpg");
+  background-repeat: no-repeat;
 }
 
 .olmos-banner-image {
